@@ -31,6 +31,8 @@ public class Visit {
 
     private Date outTime;
 
+    private String imgUrl;
+
     @Column(nullable = false)
     private Integer noOfPeople;
 

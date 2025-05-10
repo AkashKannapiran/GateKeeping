@@ -1,0 +1,159 @@
+1.
+{
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "9876543210",
+    "idNumber": "A10001",
+    "role": "ADMIN",
+    "flatNo": "101",
+    "address": {
+      "line1": "123 Park Ave",
+      "line2": "Building A",
+      "city": "Coimbatore",
+      "pincode": "641001"
+    }
+  }
+
+2.
+  {
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "phone": "9876543211",
+    "idNumber": "A10002",
+    "role": "ADMIN",
+    "flatNo": "102",
+    "address": {
+      "line1": "456 Oak St",
+      "line2": "Building B",
+      "city": "Coimbatore",
+      "pincode": "641002"
+    }
+  }
+
+3.
+  {
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "9876543212",
+    "idNumber": "R10001",
+    "role": "RESIDENT",
+    "flatNo": "103",
+    "address": {
+      "line1": "789 Pine St",
+      "line2": "Building C",
+      "city": "Coimbatore",
+      "pincode": "641003"
+    }
+  }
+
+4.
+  {
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "phone": "9876543213",
+    "idNumber": "R10002",
+    "role": "RESIDENT",
+    "flatNo": "104",
+    "address": {
+      "line1": "321 Elm St",
+      "line2": "Building D",
+      "city": "Coimbatore",
+      "pincode": "641004"
+    }
+  }
+
+5.
+  {
+    "name": "Eva White",
+    "email": "eva.white@example.com",
+    "phone": "9876543214",
+    "idNumber": "R10003",
+    "role": "RESIDENT",
+    "flatNo": "105",
+    "address": {
+      "line1": "654 Maple St",
+      "line2": "Building E",
+      "city": "Coimbatore",
+      "pincode": "641005"
+    }
+  }
+
+6.
+  {
+    "name": "Frank Harris",
+    "email": "frank.harris@example.com",
+    "phone": "9876543215",
+    "idNumber": "R10004",
+    "role": "RESIDENT",
+    "flatNo": "106",
+    "address": {
+      "line1": "987 Cedar St",
+      "line2": "Building F",
+      "city": "Coimbatore",
+      "pincode": "641006"
+    }
+  }
+
+7.
+  {
+    "name": "Grace Miller",
+    "email": "grace.miller@example.com",
+    "phone": "9876543216",
+    "idNumber": "R10005",
+    "role": "RESIDENT",
+    "flatNo": "107",
+    "address": {
+      "line1": "234 Birch St",
+      "line2": "Building G",
+      "city": "Coimbatore",
+      "pincode": "641007"
+    }
+  }
+
+8.
+  {
+    "name": "Henry Davis",
+    "email": "henry.davis@example.com",
+    "phone": "9876543217",
+    "idNumber": "GK10001",
+    "role": "GATEKEEPER",
+    "flatNo": "108",
+    "address": {
+      "line1": "345 Ash St",
+      "line2": "Building H",
+      "city": "Coimbatore",
+      "pincode": "641008"
+    }
+  }
+
+9.
+  {
+    "name": "Isabel Evans",
+    "email": "isabel.evans@example.com",
+    "phone": "9876543218",
+    "idNumber": "GK10002",
+    "role": "GATEKEEPER",
+    "flatNo": "109",
+    "address": {
+      "line1": "876 Willow St",
+      "line2": "Building I",
+      "city": "Coimbatore",
+      "pincode": "641009"
+    }
+  }
+
+10.
+  {
+    "name": "Jack Taylor",
+    "email": "jack.taylor@example.com",
+    "phone": "9876543219",
+    "idNumber": "R10006",
+    "role": "RESIDENT",
+    "flatNo": "110",
+    "address": {
+      "line1": "543 Fir St",
+      "line2": "Building J",
+      "city": "Coimbatore",
+      "pincode": "641010"
+    }
+  }
