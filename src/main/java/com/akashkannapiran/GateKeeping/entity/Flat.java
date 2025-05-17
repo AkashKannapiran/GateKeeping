@@ -1,5 +1,6 @@
 package com.akashkannapiran.GateKeeping.entity;
 
+import com.akashkannapiran.GateKeeping.entity.User;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

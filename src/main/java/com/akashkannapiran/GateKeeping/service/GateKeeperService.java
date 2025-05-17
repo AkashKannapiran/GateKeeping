@@ -1,6 +1,5 @@
 package com.akashkannapiran.GateKeeping.service;
 
-import com.akashkannapiran.GateKeeping.dto.AddressDto;
 import com.akashkannapiran.GateKeeping.dto.VisitDto;
 import com.akashkannapiran.GateKeeping.dto.VisitorDto;
 import com.akashkannapiran.GateKeeping.ennums.VisitStatus;
@@ -14,10 +13,10 @@ import com.akashkannapiran.GateKeeping.repo.FlatRepo;
 import com.akashkannapiran.GateKeeping.repo.VisitRepo;
 import com.akashkannapiran.GateKeeping.repo.VisitorRepo;
 import com.akashkannapiran.GateKeeping.util.CommonUtil;
-import org.springframework.transaction.annotation.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.Optional;

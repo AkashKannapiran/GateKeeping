@@ -32,4 +32,6 @@ public class UserDto {
     private String flatNo;
 
     private AddressDto address;
+
+    private String password;
 }

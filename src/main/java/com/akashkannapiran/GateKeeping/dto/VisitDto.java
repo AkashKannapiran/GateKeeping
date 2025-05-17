@@ -2,7 +2,6 @@ package com.akashkannapiran.GateKeeping.dto;
 
 import com.akashkannapiran.GateKeeping.ennums.VisitStatus;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import jakarta.persistence.Entity;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.*;
