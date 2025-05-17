@@ -40,5 +40,5 @@ public class VisitDto {
 
     private String visitorName;
 
-    private String visitorNumber;
+    private String visitorPhone;
 }

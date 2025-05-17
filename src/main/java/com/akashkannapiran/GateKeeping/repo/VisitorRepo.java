@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface VisitorRepo extends JpaRepository<Visitor, Long> {
+
     Visitor findByIdNumber(String idNumber);
 }
