@@ -36,7 +36,7 @@ public class GateKeeperService {
     @Autowired
     private VisitRepo visitRepo;
 
-    public VisitorDto getVisitorByIdNumber(String number) {
+    public VisitorDto getVisitor(String number) {
         Visitor visitor = visitorRepo.findByIdNumber(number);
         VisitorDto visitorDto = null;
 

@@ -35,7 +35,7 @@ public class AdminController {
     public ResponseEntity<Long> createUser(@RequestBody @Valid UserDto userDto) {
         Long id = adminService.createUser(userDto);
 
-        return new ResponseEntity<>(id, HttpStatus.CREATED);
+        return ResponseEntity.status(HttpStatus.CREATED).body(id);
     }
 
     @PostMapping("/bulk-user-creation")
@@ -75,13 +75,18 @@ public class AdminController {
 
                     response.add("Created User: " + userDto.getName() + " with ID: " + userId);
                 } catch (RuntimeException e) {
+                    LOGGER.error("Error while creating user with ID number {}: {}", currentIdNumber, e.getMessage());
                     response.add("Got Exception while creating Id: " + currentIdNumber);
                 }
             }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
 
-        return new ResponseEntity<>(response, HttpStatus.CREATED);
+            return ResponseEntity.status(HttpStatus.CREATED).body(response);
+
+        } catch (IOException e) {
+            LOGGER.error("Error processing uploaded CSV file: {}", e.getMessage());
+
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                    .body(List.of("Error reading the file: " + e.getMessage()));
+        }
     }
 }
